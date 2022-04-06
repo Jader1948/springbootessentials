@@ -10,6 +10,7 @@ import java.util.List;
 
 @Configuration
 public class DevDojoMvcConfigurer implements WebMvcConfigurer {
+
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
         WebMvcConfigurer.super.addArgumentResolvers(resolvers);
